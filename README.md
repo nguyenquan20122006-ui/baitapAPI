@@ -1,6 +1,6 @@
 # API Phân Loại Cảm Xúc Văn Bản (Text Sentiment Analysis API)
 
-Video Demo: [Video Demo](https://your-video-link-here)
+Video Demo: [![Video Demo](https://via.placeholder.com/600x300?text=Click+to+watch+video)](https://drive.google.com/file/d/1wOw9pumGa1M4PhKNOoJHz2-DkO9ohKW_/view?usp=sharing)
 
 ---
 
@@ -49,3 +49,15 @@ https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english
 
 ```bash
 pip install -r requirements.txt
+
+---
+
+### 3. Chạy API
+uvicorn main:app --reload
+
+---
+
+### 4. Kiểm tra API
+http://127.0.0.1:8000/docs
+
+---
